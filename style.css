@@ -6,7 +6,7 @@
 body {
   font-family: 'Pretendard', sans-serif;
   color: #eee;
-  background: url(/assets/bg.jpg);
+  background: url(./assets/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -19,8 +19,10 @@ a {
 }
 
 .app {
-  width: 400px;
-  height: 600px;
+  max-width: 400px;
+  min-width: 300px;
+  min-height: 600px;
+  width: calc(100vw - 2rem);
 
   position: absolute;
   top: 50%;
@@ -29,8 +31,10 @@ a {
 
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  box-shadow: 0 0 5px 0 rgb(136, 136, 136);
   border-radius: 15px;
+
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 5px 0 white;
 }
 
 .app:hover img {
@@ -40,7 +44,6 @@ a {
 .header {
   padding: 1.25em;
   text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   margin-bottom: 1.25em;
 }
 
@@ -83,9 +86,11 @@ a {
 .footer {
   font-size: 0.875em;
   text-align: center;
+  margin: 3rem 0 1rem;
 }
 
 .credit {
+  z-index: -1;
   position: absolute;
   bottom: 0.5em;
   right: 1em;
