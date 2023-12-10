@@ -27,4 +27,8 @@ This webpage allows you to create a LinkTree-style link page for your social med
 
 ## Video
 
-A link to video [TBA](#)
+## Video
+
+[![Watch the video](https://img.youtube.com/vi/DvtLjtvPPP4/hqdefault.jpg)](https://www.youtube.com/embed/DvtLjtvPPP4?si=GR_wqvJ0BK_1coBo)
+
+Check out the implementation video on YouTube: [HTML/CSSのみで作るSNSリンクまとめページ 「Link in Bio」 を作ってみよう](https://youtu.be/DvtLjtvPPP4?si=jIYjjB2K0hvISFgr)
